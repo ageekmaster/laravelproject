@@ -15,12 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post("/",function(){
-
-    return "post from root";
-
-});
-
 Route::post("/upload",function(){
 
     return "this is upload page";
