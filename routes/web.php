@@ -17,6 +17,12 @@ Route::get('/', function () {
 
 Route::post("/",function(){
 
-    return "hello from amir";
+    return "post from root";
+
+});
+
+Route::post("/upload",function(){
+
+    return "this is upload page";
 
 });
